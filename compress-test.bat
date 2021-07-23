@@ -1,0 +1,1 @@
+"C:\Program Files\WinRAR\Rar.exe"  a deploy.rar -ep1 C:\repos\MySSHTest\MySSHTest\WinFormsApp1\*
