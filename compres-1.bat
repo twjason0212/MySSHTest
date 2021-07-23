@@ -7,7 +7,7 @@ echo 执行此脚本前，请确认已经安装解压缩程序7-Zip
 set 7ZipDir=%ProgramFiles%\7-Zip
 
 REM 当前目录下用来测试的压缩包
-set plegodemo=deploy.rar
+set plegodemo=deploy.zip
 
 :: 解压
 set curdir=%~dp0
