@@ -10,3 +10,5 @@ set deploydir=C:\api
 set "plegodemodir=!plegodemo:.zip=!"
 start /wait "" "!7ZipDir!\7z.exe" x !curdir!!plegodemo! -o!deploydir!\!plegodemodir!\ -aoa
 
+
+echo part2 end
