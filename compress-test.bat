@@ -9,7 +9,7 @@ set 7ZipDir=%ProgramFiles%\7-Zip
 set plegodemo=deploy.zip
 
 set curdir=%~dp0
-set deploydir=C:\api
+set deploydir=C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\test2\
 set "plegodemodir=!plegodemo:.zip=!"
 start /wait "" "!7ZipDir!\7z.exe" x !curdir!!plegodemo! -o!deploydir!\!plegodemodir!\ -aoa
 
